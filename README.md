@@ -1,42 +1,6 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1bac5bbdf2f64cfeb67092bef3e50d6f)](https://www.codacy.com/app/yshurik/morningstar-core?utm_source=github.com&utm_medium=referral&utm_content=morningstarmarket/morningstar-core&utm_campaign=badger)
-[![Build Status](https://travis-ci.org/morningstarmarket/morningstar-core.svg?branch=master)](https://travis-ci.org/morningstarmarket/morningstar-core)
-[![Build status](https://ci.appveyor.com/api/projects/status/qdy7pilwdtxehqhw?svg=true)](https://ci.appveyor.com/project/yshurik/morningstar-core)
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/morningstarmarket/morningstar-core/blob/master/COPYING)
-
-
-MorningStar development tree
-
-MorningStar is a PoS-based cryptocurrency.
+MorningStar is a Proof-of-Stake cryptocurrency that aims to replace fiat currencies in the payment of/for goods and services.  It facilitates a true value backed system based on a finite monetary system.  
 
 MorningStar
 ===========================
 
-MorningStar is the world's first fully-functional decentralized marketplace. Using innovative technology, MorningStar enables you to buy and sell goods and services securely and anonymously.
-
-Development process
-===========================
-
-Developers work in their own trees, then submit pull requests when
-they think their feature or bug fix is ready.
-
-The patch will be accepted if there is broad consensus that it is a
-good thing.  Developers should expect to rework and resubmit patches
-if they don't match the project's coding conventions (see coding.txt)
-or are controversial.
-
-The master branch is regularly built and tested, but is not guaranteed
-to be completely stable. Tags are regularly created to indicate new
-stable release versions of MorningStar.
-
-Feature branches are created when there are major new features being
-worked on by several people.
-
-From time to time a pull request will become outdated. If this occurs, and
-the pull is no longer automatically mergeable; a comment on the pull will
-be used to issue a warning of closure. The pull will be closed 15 days
-after the warning if action is not taken by the author. Pull requests closed
-in this manner will have their corresponding issue labeled 'stagnant'.
-
-Issues with no commits will be given a similar warning, and closed after
-15 days from their last activity. Issues closed in this manner will be
-labeled 'stale'.
+MorningStar is a crypto-currency utilizing a fully-functional decentralized marketplace.  MorningStar enables you to buy and sell goods and services securely and anonymously without being chained by overly regulated, inflationary, pyramid scheming fiat currency. (i.e. $, USD)
