@@ -53,8 +53,8 @@ public:
         pchMessageStart[2] = 0x22;
         pchMessageStart[3] = 0x05;
         vAlertPubKey = ParseHex("0486bce1bac0d543f104cbff2bd23680056a3b9ea05e1137d2ff90eeb5e08472eb500322593a2cb06fbf8297d7beb6cd30cb90f98153b5b7cce1493749e41e0284");
-        nDefaultPort = 19914;
-        nRPCPort = 19915;
+        nDefaultPort = 15914;
+        nRPCPort = 15915;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -67,9 +67,9 @@ public:
         //  vMerkleTree: 12630d16a9
 
         //Change the text and nTime below if you wish to make a new genesis
-        const char* pszTimestamp = "MorningStar gonna make an Impact on the altcoin market never seen before";
+        const char* pszTimestamp = "MorningStar fell from the sky to save the monetary system of the world.";
         CTransaction txNew;
-        txNew.nTime = 1414351032;
+        txNew.nTime = 1414391032;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -78,7 +78,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1414351032;
+        genesis.nTime    = 1414391032;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 1491418;
 
@@ -102,39 +102,11 @@ public:
         //assert(hashGenesisBlock == uint256("0x0"));
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000075685d3be1f253ce777174b1594354e79954d2a32a6f77fe9cba00e6467"));
-        assert(genesis.hashMerkleRoot == uint256("0xd2b4345a1b1f0df76ab0cadfa1b44ca52270ff551c43e1b229d25873f0adc90d"));
+        assert(hashGenesisBlock == uint256(""));
+        assert(genesis.hashMerkleRoot == uint256(""));
 
         // new nodes, alive 2017-12
-        vSeeds.push_back(CDNSSeedData("bbaynode (node12)", "195.181.242.206"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (tokio,ys)", "151.236.221.10"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (london,ys)", "108.61.163.182"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (new1)", "94.102.52.66"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (new2)", "80.82.64.64"));
-    
-        vSeeds.push_back(CDNSSeedData("bbaynode (new3)", "45.79.94.206"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (new4)", "139.162.226.144"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (new5)", "172.104.25.65"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (new6)", "172.104.248.46"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (new7)", "172.105.241.170"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (new8)", "172.104.185.75"));
-        
-        // old nodes (can come online) in end of list to avoid network entering failures
-        vSeeds.push_back(CDNSSeedData("bbaynode (nyc)", "104.236.208.150"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (amsterdam)", "188.166.39.223"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (singapore)", "128.199.118.67"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node1)", "104.255.33.162"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node2)", "194.135.84.161"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node3)", "23.227.190.163"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node4)", "45.56.109.7"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node5)", "104.172.24.79"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node6)", "106.187.50.153"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node7)", "158.69.27.82"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node8)", "24.37.11.106"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node9)", "40.112.149.192"));        
-        vSeeds.push_back(CDNSSeedData("bbaynode (node10)", "69.254.222.98"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node11)", "85.25.146.74"));
-        vSeeds.push_back(CDNSSeedData("bbaynode (node12)", "195.181.242.206")); 
+        // refer to Github old code
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);

@@ -2927,8 +2927,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 19914 or testnet: 21914)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 19914 tai testiverkko: 21914)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 15914 or testnet: 21914)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 15914 tai testiverkko: 21914)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2977,8 +2977,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+63"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 19915 or testnet: 21915)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 19915 tai testiverkko: 21915)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15915 or testnet: 21915)</source>
+        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 15915 tai testiverkko: 21915)</translation>
     </message>
     <message>
         <location line="-16"/>

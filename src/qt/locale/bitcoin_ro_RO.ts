@@ -2915,8 +2915,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MorningStar Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 19914 or testnet: 21914)</source>
-        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  19914 sau testnet: 21914) </translation>
+        <source>Listen for connections on &lt;port&gt; (default: 15914 or testnet: 21914)</source>
+        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  15914 sau testnet: 21914) </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2965,8 +2965,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MorningStar Alert&quot; admin@
     </message>
     <message>
         <location line="+63"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 19915 or testnet: 21915)</source>
-        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:19915 sau testnet: 21915)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 15915 or testnet: 21915)</source>
+        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:15915 sau testnet: 21915)</translation>
     </message>
     <message>
         <location line="-16"/>
