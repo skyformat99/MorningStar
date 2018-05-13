@@ -24,7 +24,7 @@ class CReserveKey;
 class CWallet;
 
 //Added
-static const int LAST_POW_TIME = 1416402000;
+static const int LAST_POW_TIME = 1526774400;
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 /** The maximum size for mined blocks */
