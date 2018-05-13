@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=morningstar-wallet-qt
+Comment=MorningStar P2P Cryptocurrency
+Exec=/usr/bin/morningstar-wallet-qt
+Terminal=false
+Type=Application
+Icon=morningstar-wallet-qt
+MimeType=x-scheme-handler/morningstar;
+Categories=Office;
