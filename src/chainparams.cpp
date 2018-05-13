@@ -80,7 +80,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1414391032;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 1491418;
+        genesis.nNonce   = 322526;
 
         // Uncommenting this will make a new genesis which you can change the info above
         //uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
@@ -93,7 +93,7 @@ public:
         //                  printf("NONCE WRAPPED, incrementing time");
         //                  ++genesis.nTime;
         //             }
-        //}
+        // }
         //printf("genesis.GetHash() == %s\n", genesis.GetHash().ToString().c_str());
         //printf("genesis.hashMerkleRoot == %s\n", genesis.hashMerkleRoot.ToString().c_str());
         //printf("genesis.nTime = %u \n", genesis.nTime);
@@ -102,10 +102,10 @@ public:
         //assert(hashGenesisBlock == uint256("0x0"));
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256(""));
-        assert(genesis.hashMerkleRoot == uint256(""));
+        assert(hashGenesisBlock == uint256("0x0000067bc0bbf44eba03b58cf3a250dcf961cb20e42a5fc903c3b36a955f8f9b"));
+        assert(genesis.hashMerkleRoot == uint256("0x9347674fc34e10c82a6f1989e27a76a13d2eca805d567d4146dfb7655fffc32c"));
 
-        // new nodes, alive 2017-12
+        // new nodes get added here
         // refer to Github old code
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
